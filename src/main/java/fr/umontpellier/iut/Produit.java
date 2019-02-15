@@ -26,7 +26,7 @@ public class Produit {
                 +this.dateDebut +"\n"+"Heure: "+this.heureDebut+"\n"+
                 "MontantPasEnchereMinimal: " +this.MontantPasEnchereMinimal;
     }
-    }
+
     public void demarrerEnchere(){
         dateDebut = LocalDate.now();
        heureDebut = LocalTime.now();
